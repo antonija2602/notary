@@ -1,0 +1,49 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    /* background-color: #316bae; */
+    /* background-color: #333; */
+    /* background-color: #212a42; */
+    /* background-color: #00b9ef; */
+    /* background-color: #dcf836; */
+    /* background-color: #555; */
+    /* background-color: #777; */
+    /* background-color: #337ab7; */
+    /* background-color: #286090; */
+    /* background-color: #31708f; */
+    /* background-color: #245269; */
+    /* background-color: #3c4858; */
+}
+
+body {
+    background: #2980b9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9);
+}
+.responsive {
+    max-width: 75%;
+    height: auto;
+}
+/* img {
+    width: 25%;
+
+    padding: 15px;
+} */
+
+.displayBox {
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 500px;
+    float: left;
+    padding: 1rem;
+}
